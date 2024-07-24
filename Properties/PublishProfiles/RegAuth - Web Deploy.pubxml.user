@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA3mHwNWskBUS6QZSPQXqFBQAAAAACAAAAAAAQZgAAAAEAACAAAAAt9cnzjOuB3ieCYKA6hFPjGUB9CojhiFxhdSQwZaYoHQAAAAAOgAAAAAIAACAAAADUzG3BHU/DEp0tGz/ZdwRA5/eyipAiMIe2UGbYQar/8IAAAABmFydVVzxiG/bLkyD/Cf/0bp2CGO2bw2FFrQgdCiz3vcYjN8o+1b2h1LotF7e/y9AEvXKtw8T74SxtKb3sKjSTbn9l3UGhthJT3a+SXfBF3uytJBgLV1V2fJr5H+hqFaVNXhCq02SM283bsMENf8KZP6hb/jhEWtpyjE5vngqLn0AAAAAwFBEYMGdmzobOlWXi7VdGniiCP39Y90MjCmzsh8m3XvUu9QwwgNlWdswl+4hAmz9OFmu/FPn9lqx9MIi/k3X7</EncryptedPassword>
+    <History>True|2024-07-24T20:18:38.0099687Z||;True|2024-07-25T02:10:30.8524588+06:00||;True|2024-07-25T01:17:10.4141805+06:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="RegAuth">
+      <Value>Data Source=regauthdbserver.database.windows.net,1433%3bInitial Catalog=RegAuth_db%3bUser ID=shifat1755%3bPassword=A1755%40html</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="RegAuth.Data.ApplicationDbContext">
+      <Value>Data Source=regauthdbserver.database.windows.net,1433%3bInitial Catalog=RegAuth_db%3bUser ID=shifat1755%3bPassword=A1755%40html</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
