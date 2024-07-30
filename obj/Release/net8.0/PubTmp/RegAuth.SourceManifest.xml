@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="C:\Users\Syed Shifat\source\repos\RegAuth\RegAuth\obj\Release\net8.0\PubTmp\Out\" />
-  <dbfullsql path="C:\Users\Syed Shifat\source\repos\RegAuth\RegAuth\obj\Release\net8.0\PubTmp\EFSQLScripts\RegAuth.Data.ApplicationDbContext.sql" />
-</sitemanifest>
